@@ -1,0 +1,21 @@
+{
+  "name": "gif-generator",
+  "version": "1.0.0",
+  "description": "A Node.js script for generating GIFs on demand.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "gifencoder": "^2.0.1",
+    "png-file-stream": "^1.2.1",
+    "prompts": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
